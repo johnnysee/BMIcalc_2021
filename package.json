@@ -1,0 +1,14 @@
+{
+  "name": "BMIcalc_2021",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/johnnysee/BMIcalc_2021.git",
+  "author": "johnnysee <js.johnny.see@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^8.1.0"
+  },
+  "dependencies": {
+    "superstatic": "^7.1.0"
+  }
+}
