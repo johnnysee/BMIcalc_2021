@@ -1,8 +1,10 @@
+// Old BMI Formula:  weight(kg)/height(m)^2
+// New BMI Formula: 1.3 * weight(kg)/height(m)
 const calculateMetricBMI = (weight, height) => {
   let result
-  result = weight / ((height/100) * (height/100))
+  result = 1.3*weight / (Math.pow((height/100), 2.5))
 
-  return result.toFixed(2);
+  return result;
 }
 
 const getBMIClassification = (value) => {
